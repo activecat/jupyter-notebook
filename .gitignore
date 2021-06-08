@@ -1,0 +1,35 @@
+# sgku: In Windows PowerShell, .gitignore doesn't work. Only .git/info/exclude works.
+
+# Jupyter notebook cache:
+.ipynb_checkpoints
+
+*.pyc
+*.py[cod]
+__pycache__/
+
+.vscode/*
+db.sqlite3
+*.log
+*.pot
+local_settings.py
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
